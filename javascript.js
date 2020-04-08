@@ -1,6 +1,8 @@
 function jsTask(){
     let name='Omolola Odunowo';
     let courses=['HTML','CSS', 'JavaScript'];
+    console.log(name);
+    console.log(courses);
     let i;
     
 
