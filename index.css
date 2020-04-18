@@ -1,0 +1,224 @@
+body{
+    background-image:url("images/laptop.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+    margin:0;
+}
+
+div {
+    border:0px solid black;
+}
+
+.wrapper {
+    position:absolute;
+    background-color:rgba(119,42,97,0.5);
+    min-height:100vh;
+    width:100vw;
+    margin:0;
+    padding:0;
+}
+
+.bio_data{
+    width:600px;
+    height:900px;
+    position:relative;
+    background-color:rgb(255,255,255);
+    margin-top:150px;
+    margin-left:50px;
+    float:left;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.contact {
+    position:relative;
+    width:400px;
+    height:600px;
+    background-color:rgba(255,255,255,0.3);
+    margin-top:150px;
+    margin-left:800px;
+    
+}
+
+.clr {
+    clear:both;
+}
+
+.brk1{
+    position:relative;
+    height:60px;
+    background-color:purple;
+    border:1px solid purple;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    
+}
+
+.text {
+    font-size:24px;
+    text-align:center;
+    font-family:Arial;
+    color:white;
+}
+
+.brk2 {
+    position:relative;
+    height:60px;
+    background-color:purple;
+    border:1px solid purple;
+}
+
+img {
+    width:200px;
+    height:230px;
+    border-radius:100px;
+    
+}
+
+.bio_data_info{
+    position:relative;
+    width:600px;
+    margin-left:50px;
+    margin-top:-240px;
+    height:550px;
+    background-color:white;
+    float:left;
+    border-bottom: 20px;
+  ;
+}
+
+.text_2 {
+    font-family:Arial;
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+    color:purple;
+    margin-top:30px;
+
+}
+
+form{
+    font-family:Arial;
+    font-size:20px;
+    margin-top:20px;
+}
+
+input{
+    width:320px;
+    height:35px;
+    margin-left:30px;
+    border-radius:10px;
+    border:1px solid white;
+    margin-top:20px;
+}
+
+textarea{
+    width:320px;
+    height:100px;
+    margin-left:30px;
+    border-radius:10px;
+    font-family:Arial;
+    border:1px solid white;
+    margin-top:20px;
+}
+
+button{
+    background-color:purple;
+    padding:10px;
+    border-radius:10px;
+    margin-left:300px;
+    border:1px solid purple;
+    color:white;
+    margin-top:20px;
+}
+
+
+
+@media screen and (max-width:375px){
+    .bio_data{
+        width:340px;
+        margin-left:20px;
+        margin-top:0;
+        height:430px;
+        
+
+    }
+    
+
+    body{
+        background-image:none;
+    }
+
+    img{
+        width:150px;
+        height:100px;
+        border-radius:0;
+    }
+
+    .text_2{
+        font-size:8px;
+        margin-top:0;
+        font-weight:bold;
+    }
+
+    .contact{
+        width:340px;
+        margin-left:20px;
+        margin-top:450px;
+        height:200px;
+        background-color:white;
+        border:1px solid black;
+    }
+
+    input{
+        width:280px;
+        background-color:white;
+        color:white;
+        margin-top:8px;
+        height:15px;
+        border:1px solid grey;
+    }
+
+    textarea{
+        width:200px;
+        background-color:white;
+        color:white;
+        height:50px;
+        margin-top:5px;
+        border:1px solid grey;
+    }
+
+    button{
+        margin-left:250px;
+        margin-top:0;
+        padding:0;
+    }
+
+    form{
+        margin-top:0px;
+    }
+    
+}
+
+@media screen and (max-width:1024px){
+    .contact{
+        margin-left:200px;
+        height:400px;
+        margin-top:1000px;
+        width:600px;
+    }
+
+    .bio_data{
+        height:830px;
+        margin-left:200px;
+    }
+
+    input {
+        width:500px;
+    }
+
+    textarea{
+        width:500px;
+    }
+}
