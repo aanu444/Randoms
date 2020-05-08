@@ -1,0 +1,117 @@
+body{
+    font-family:arial;
+}
+
+div {
+    border:0px solid black;
+   
+}
+
+.flex-container{
+    display:flex;
+    flex-flow: column wrap;
+    background-image:url(images/head.jpg);
+    justify-content:flex-start;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:0;
+    padding:0;
+    
+}
+
+.flex-wrapper{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:flex-start;
+    min-height:50px;
+    border:1px solid black;
+    
+
+}
+
+.txt1{
+    text-align:center;
+    color:white;
+    
+}
+
+.two{
+   background-size:cover;
+   min-height:250px;
+   background-color:rgba(129,63,204,0.4);
+    align-items:flex-start;
+
+
+}
+
+.three{
+flex-grow:12;
+}
+
+.four{
+flex-grow:2;
+    
+
+}
+
+.flex-contain{
+    display:none;
+    flex-flow:column wrap;
+}
+
+
+.five{
+    flex-grow:14;
+    min-height:200px;
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+li{
+    padding:10px;
+    margin:15px;
+    border:1px solid black;
+    text-align:center;
+
+}
+
+.notpicked{
+    background-color:white;
+    color:black;
+}
+.no{
+    background-color:red;
+    color:white;
+}
+
+.yes{
+    background-color:green;
+    color:white;
+}
+
+h3{
+    text-align:center;
+}
+
+button {
+    background-color:rgb(129,63,204);
+    color:white;
+    padding:8px;
+    border:1px solid rgb(129,63,204);
+    border-radius:10px;
+    margin-right:20px;
+}
+
+button.result {
+    background-color:rgb(129,63,204);
+    color:white;
+    padding:8px;
+    border:1px solid rgb(129,63,204);
+    border-radius:10px;
+    width:150px;
+}

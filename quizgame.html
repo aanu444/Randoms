@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omolola Odunowo">
+    <meta name="keywords" content="gaming. HTML, CSS. JavaScript">
+    <meta name="description" content="A responsive quiz game">
+    <title>Omolola's Responsive Quiz Game</title>
+    <link rel="stylesheet" type="text/css" href="quizgame.css">
+</head>
+<body>
+
+    <div class="flex-container">
+        <div class="two" >
+            <h1 class="txt1"> Quiz - O!</h1>
+        </div>
+    </div>
+    <div class="flex-wrapper">
+        <div class="three">
+        <p style="font-size:20px; margin-left:30px;"> Counter: <span id="count"></span> </p>
+        </div>
+        <div class="four">
+            <p align="center" id="drop1" onmousedown="drop1();"><u>Start Game Here</u></p>
+        </div>   
+    </div>
+    <div class="flex-contain" id="myDiv1">
+        <div class="five">
+            <h3>Which of these people co-founded Tesla?</h3>
+            <ul>
+                <li>Jeff Benzos</li>
+                <li>Elon Musk</li>
+                <li>Grimes</li>
+            </ul><p align="right"><button onclick="drop2();">Question 2</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contain" id="myDiv2">
+        <div class="five">
+            <h3>What is the full meaning of MEST Africa?</h3>
+            <ul>
+                <li>Meltwater Entrepreneural School of Technology</li>
+                <li>Marine Engineering, Science and Technology</li>
+                <li>Meltwater Solar Technology</li>
+            </ul><p align="right"><button onclick="drop3();">Question 3</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contain" id="myDiv3">
+        <div class="five">
+            <h3>How many searches does Google receive per day?</h3>
+            <ul>
+                <li>Over 3.5 billion</li>
+                <li>3.4 billion</li>
+                <li>Over 4.5 billion</li>
+            </ul><p align="right"><button onclick="drop4();">Question 4</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contain" id="myDiv4">
+        <div class="five">
+            <h3>When was Amazon founded?</h3>
+            <ul>
+                <li>5th of July, 1964</li>
+                <li>5th of July, 1984</li>
+                <li>5th of July, 1994</li>
+            </ul><p align="right"><button onclick="drop5();">Question 5</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contain" id="myDiv5">
+        <div class="five">
+            <h3>The first computer mouse was made from which of the following?</h3>
+            <ul>
+                <li>Wood</li>
+                <li>Plastic</li>
+                <li>Steel</li>
+            </ul><p align="center"><button id="btn">See Result</button></p>
+        </div>
+    </div>
+
+    <div class="flex-contain" id="myDiv6">
+        <div class="five">
+                <h1 align="center"> You have scored <span id="result"></span>. <br><br> Thank you for playing!!!</h1>
+        </div>
+    </div>
+
+    <script src="quizgame.js"></script>
+</body>
+</html>
